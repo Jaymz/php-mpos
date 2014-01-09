@@ -12,7 +12,7 @@ echo "Secret is: ".$secret."\n\n";
 $secret = 'UB7A2QLK2M3EQKOF';
 echo "Secret is: ".$secret."<br /><br />";
 
-$qrCodeUrl = $ga->getQRCodeGoogleUrl('Blog', $secret);
+$qrCodeUrl = $ga->getQRCodeGoogleUrl('Nitecoin', $secret);
 echo "Google Charts URL for the QR-Code: ".$qrCodeUrl."<br /><br />";
 
 
